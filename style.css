@@ -1,0 +1,82 @@
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 5em;
+   background: linear-gradient(to left, #ffff99 0%, #ff99cc 100%);
+}
+#title{
+  text-align: center;
+  font-family: "Rubik", sans-serif;
+  font-size: 90px;
+   color: green;
+   padding-top: 10px;
+  font-weight: bold;
+  border:none;
+}
+#wrapper{
+  display:grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  gird-template-row: 500px;
+  grid-gap: 10px;
+  justify-items: center;
+}
+#pic{
+  width: 100%;
+}
+#pic:hover{
+    width: 95%;
+  height: 95%;
+  }
+#back{
+  background:blue;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-style: italic;
+}
+#next{
+  background:blue;
+  color: white;
+  font-family: "Rubik", sans-serif;
+  text-align: center;
+  display: block;
+  font-size: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+  font-weight: bold;
+  font-style: italic;
+  border:none;
+}
+#name{
+  color: black;
+  font-family: 'Spicy Rice', cursive;
+  text-align: center;
+  font-size:50px;
+  padding-top: 10px;
+  margin-left: 100px;
+  margin-right:100px;
+  font-weight: bold;
+  border:none;
+}
+#quote{
+  font-family: 'Nanum Gothic', sans-serif;
+  padding-top: 10px;
+  padding-left: 500px;
+  font-size:60px;
+}
+#superlative{
+   color: black;
+  font-family: 'Spicy Rice', cursive;
+  text-align: center;
+  font-size:50px;
+  padding-top: 10px;
+}
+#navbar-brand{
+  padding-left: 1200px;
+  width:100%;
+  padding-top:400px;
+}
